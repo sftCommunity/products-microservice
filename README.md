@@ -50,3 +50,9 @@ npx prisma migrate dev
 ```bash
 npm run start:dev
 ```
+
+## Nats
+
+```bash
+docker run -d --name nats-main -p 4222:4222 -p 8222:8222 nats
+```
